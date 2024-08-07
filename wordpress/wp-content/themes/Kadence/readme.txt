@@ -1,3 +1,5 @@
+* This package is an unmodified copy of Kadence v1.2.7. All customizations will be in the Kadence-child theme folder. *
+
 === Kadence ===
 Contributors: britner
 Tags: translation-ready, two-columns, right-sidebar, left-sidebar, footer-widgets, blog, custom-logo, custom-background, custom-menu, rtl-language-support, editor-style, threaded-comments, custom-colors, featured-images, wide-blocks, full-width-template, theme-options, e-commerce.
