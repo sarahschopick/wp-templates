@@ -1,4 +1,6 @@
-* This package is an unmodified copy of Kadence v1.2.7. This is here for reference only. This theme is free in the Wordpress theme library. 
+* This package is an unmodified copy of Kadence v1.2.7. 
+* This is here for reference only. 
+* This theme is free in the Wordpress theme library. 
 * All customizations will be in the Kadence-child theme folder. 
 *
 
