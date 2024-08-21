@@ -109,6 +109,10 @@ body::after {
 
 .sticky {position: sticky;}
 
+.contain {
+	object-fit: contain; 
+}
+
 /* Containers */ 
 
 .container {}
