@@ -2,7 +2,7 @@ img, svg.img, video {
 	max-height: 100vh; 
 	width: fit-content;
 	block-size: fit-content;
-  aspect-ratio: auto; 
+	aspect-ratio: auto; 
 }
 
 img,
@@ -14,7 +14,7 @@ video {
 .img-box, .ftr-img {
 	box-sizing: content-box; 
 	place-content: center; 
-  padding: 0; 
+	padding: 0; 
 }
 
 .img-box:empty {
@@ -22,7 +22,8 @@ video {
 }
 
 .ftr-img {
-  height: auto; 
-  width: auto; 
-  max-height: 400px; 
+	height: auto; 
+	width: auto; 
+	max-height: 400px; 
+	max-width: 70vw;
 }
