@@ -1,0 +1,29 @@
+img, svg.img, video {
+	max-height: 100vh; 
+	width: fit-content;
+	block-size: fit-content;
+	aspect-ratio: auto; 
+}
+
+img,
+picture,
+video {
+  max-width: 100%;
+}
+
+.img-box, .ftr-img {
+	box-sizing: content-box; 
+	place-content: center; 
+	padding: 0; 
+}
+
+.img-box:empty {
+	display: none; 
+}
+
+.ftr-img {
+	height: auto; 
+	width: auto; 
+	max-height: 400px; 
+	max-width: 70vw;
+}

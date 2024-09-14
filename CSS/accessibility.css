@@ -1,0 +1,15 @@
+/* ---default dark-mode */
+@media (prefers-color-scheme: dark) {
+	img,
+	video {
+		filter: brightness(0.8) contrast(1.2);
+	}
+}
+
+/* ---Inverted Color Fix */
+@media (inverted-colors) {
+	img,
+	video {
+		filter: invert(100%);
+	}
+}
