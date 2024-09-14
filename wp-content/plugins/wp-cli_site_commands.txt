@@ -1,0 +1,18 @@
+wp site
+usage: wp site activate [<id>...] [--slug=<slug>]
+   or: wp site archive [<id>...] [--slug=<slug>]
+   or: wp site create --slug=<slug> [--title=<title>] [--email=<email>] [--network_id=<network-id>] [--private] [--porcelain]
+   or: wp site deactivate [<id>...] [--slug=<slug>]
+   or: wp site delete [<site-id>] [--slug=<slug>] [--yes] [--keep-tables]
+   or: wp site empty [--uploads] [--yes]
+   or: wp site list [--network=<id>] [--<field>=<value>] [--site__in=<value>] [--site_user=<value>] [--field=<field>] [--fields=<fields>] [--format=<format>]
+   or: wp site mature [<id>...] [--slug=<slug>]
+   or: wp site meta <command>
+   or: wp site option <command>
+   or: wp site private [<id>...] [--slug=<slug>]
+   or: wp site public [<id>...] [--slug=<slug>]
+   or: wp site spam [<id>...] [--slug=<slug>]
+   or: wp site switch-language <language>
+   or: wp site unarchive [<id>...] [--slug=<slug>]
+   or: wp site unmature [<id>...] [--slug=<slug>]
+   or: wp site unspam [<id>...] [--slug=<slug>]

@@ -1,0 +1,45 @@
+wp help index-mysql
+
+NAME
+
+  wp index-mysql
+
+DESCRIPTION
+
+  Index WP MySQL For Speed plugin
+
+SYNOPSIS
+
+  wp index-mysql <command>
+
+SUBCOMMANDS
+
+  disable              Remove high-performance keys, reverting to WordPress
+                       standard.
+  enable               Add high-performance keys.
+  status               Show indexing status.
+  tables               Display information about tables.
+  upgrade              Upgrade the storage engine and row format to InnoDB and
+                       Dynamic
+  upload_metadata      Upload diagnostic metadata to plugin developers' site.
+  version              Display version information.
+
+OPTIONS
+
+  [--all]
+    Process all eligible tables.
+
+  [--dry-run]
+    Show SQL statements to change keys but don't run them. If you use this
+    option you can pipe the output to wp db query. For example:
+        wp index-mysql enable --all --dryrun | wp db query
+
+  [--dryrun]
+    Same as --dry-run
+
+  [--exclude=<table[,table...]]
+    Exclude named tables.
+
+  [--format=<format>]
+    The display format. table, csv, json, yaml.
+:
