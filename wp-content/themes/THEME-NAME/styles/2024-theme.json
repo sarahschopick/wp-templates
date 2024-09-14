@@ -1,0 +1,110 @@
+{
+    "settings": {
+        "color": {
+            "palette": [
+                {
+                    "color": "var(--wp--preset--color--base)",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "var(--wp--preset--color--base-2)",
+                    "name": "Base / Two",
+                    "slug": "base-2"
+                },
+                {
+                    "color": "var(--wp--preset--color--contrast)",
+                    "name": "Contrast",
+                    "slug": "contrast"
+                },
+                {
+                    "color": "var(--wp--preset--color--contrast-2)",
+                    "name": "Contrast / Two",
+                    "slug": "contrast-2"
+                },
+                {
+                    "color": "var(--wp--preset--color--contrast-3)",
+                    "name": "Contrast / Three",
+                    "slug": "contrast-3"
+                },
+                {
+                    "color": "var(--wp--preset--color--accent)",
+                    "name": "Accent",
+                    "slug": "accent"
+                },
+                {
+                    "color": "var(--wp--preset--color--accent-2)",
+                    "name": "Accent / Two",
+                    "slug": "accent-2"
+                },
+                {
+                    "color": "var(--wp--preset--color--accent-3)",
+                    "name": "Accent / Three",
+                    "slug": "accent-3"
+                },
+                {
+                    "color": "var(--wp--preset--color--accent-4)",
+                    "name": "Accent / Four",
+                    "slug": "accent-4"
+                },
+                {
+                    "color": "var(--wp--preset--color--accent-5)",
+                    "name": "Accent / Five",
+                    "slug": "accent-5"
+                }
+            ],
+            "gradients": [
+                {
+                    "slug": "gradient-1",
+                    "gradient": "linear-gradient(to bottom, (--wp--preset--color--accent) 0%, (--wp--preset--color--accent--2) 100%)",
+                    "name": "Vertical accent to accent-2"
+                },
+                {
+                    "slug": "gradient-2",
+                    "gradient": "linear-gradient(to top, (--wp--preset--color--accent) 0%, (--wp--preset--color--accent--2) 100%)",
+                    "name": "Vertical accent-2 to accent"
+                },
+                {
+                    "slug": "gradient-3",
+                    "gradient": "linear-gradient(to bottom, (--wp--preset--color--accent-2) 0%, (--wp--preset--color--accent--3) 100%)",
+                    "name": "Vertical accent-2 to accent-3"
+                },
+                {
+                    "slug": "gradient-4",
+                    "gradient": "linear-gradient(to top, (--wp--preset--color--accent-2) 0%, (--wp--preset--color--accent--3) 100%)",
+                    "name": "Vertical accent-3 to accent-2"
+                },
+                {
+                    "slug": "gradient-5",
+                    "gradient": "linear-gradient(to bottom, (--wp--preset--color--accent-3) 0%, (--wp--preset--color--accent--4) 100%)",
+                    "name": "Vertical accent-3 to accent-4"
+                },
+                {
+                    "slug": "gradient-6",
+                    "gradient": "linear-gradient(to top, (--wp--preset--color--accent-3) 0%, (--wp--preset--color--accent--4) 100%)",
+                    "name": "Vertical accent-4 to accent-3"
+                },
+                {
+                    "slug": "gradient-7",
+                    "gradient": "linear-gradient(to bottom, (--wp--preset--color--accent-4) 0%, (--wp--preset--color--accent--5) 100%)",
+                    "name": "Vertical accent-4 to accent-5"
+                },
+                {
+                    "slug": "gradient-8",
+                    "gradient": "linear-gradient(to top, (--wp--preset--color--accent-4) 0%, (--wp--preset--color--accent--5) 100%)",
+                    "name": "Vertical accent-5 to accent-4"
+                },
+                {
+                    "slug": "gradient-9",
+                    "gradient": "linear-gradient(to bottom, (--wp--preset--color--accent--5) 0%, (--wp--preset--color--base) 100%)",
+                    "name": "Vertical accent-5 to base"
+                },
+                {
+                    "slug": "gradient-10",
+                    "gradient": "linear-gradient(to top, (--wp--preset--color--accent--5) 0%, (--wp--preset--color--base) 100%)",
+                    "name": "Vertical base to accent-5"
+                }
+            ]
+        }
+    }
+}

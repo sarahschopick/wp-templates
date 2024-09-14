@@ -301,7 +301,7 @@
                     "name": "Background"
                 },
                 {
-                    "color": "#2e2e2e",
+                    "color": "#F9F1F0",
                     "slug": "base-2",
                     "name": "Base 2"
                 },
@@ -311,7 +311,7 @@
                     "name": "Foreground"
                 },
                 {
-                    "color": "#e2e2e2",
+                    "color": "#690931",
                     "slug": "contrast-2",
                     "name": "Contrast 2"
                 },
@@ -326,14 +326,29 @@
                     "name": "Secondary"
                 },
                 {
-                    "color": "#b3f0f0",
+                    "color": "#b76e7c",
                     "slug": "accent",
                     "name": "Accent"
                 },
                 {
-                    "color": "#3d5361",
+                    "color": "#ca3b5d",
                     "slug": "accent-2",
                     "name": "accent 2"
+                },
+                {
+                    "color": "#ebe7eb",
+                    "slug": "accent-3",
+                    "name": "Accent 3"
+                },
+                {
+                    "color": "#f48f98",
+                    "slug": "accent-4",
+                    "name": "accent 4"
+                },
+                {
+                    "color": "#E6D1D2",
+                    "slug": "accent-5",
+                    "name": "Accent 5"
                 },
                 {
                     "color": "#718096",
@@ -344,21 +359,6 @@
                     "color": "#8fa2a6",
                     "slug": "blue-olive",
                     "name": "Blue Olive"
-                },
-                {
-                    "color": "#b76e7c",
-                    "slug": "accent-3",
-                    "name": "Accent 3"
-                },
-                {
-                    "color": "#690931",
-                    "slug": "accent-4",
-                    "name": "accent 4"
-                },
-                {
-                    "color": "#F0B3B3",
-                    "slug": "accent-5",
-                    "name": "Accent 5"
                 }
             ],
             "text": true
@@ -418,68 +418,142 @@
                 {
                     "name": "Sans Serif",
                     "slug": "sans-serif",
-                    "fontFamily": "outfit, 'be vietnam pro', 'helvetica neue', verdana, sans-serif",
+                    "fontFamily": "outfit, 'be vietnam pro', 'open sans','helvetica neue', verdana, 'helvetica', sans-serif",
                     "fontFace": [
                         {
-                            "fontDisplay": "swap",
                             "fontFamily": "Outfit",
-                            "fontStretch": "normal"
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap);"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Open Sans",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap)"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Be Vietnam Pro",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap)"
+                            ]
                         }
                     ]
                 },
                 {
                     "name": "Serif",
                     "slug": "serif",
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Arya', 'Playfair Display', 'Playfair Display SC', serif",
+                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif",
                     "fontFace": [
                         {
-                            "fontDisplay": "swap",
                             "fontFamily": "Newsreader",
+                            "fontDisplay": "swap",
                             "fontStretch": "normal",
                             "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap);",
-                                "url(https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap)",
+                                "url(https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap);"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Bookman Old Style",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Bookman+Old+Style&display=swap)"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Playfair Display",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Playflair+Display&display=swap)"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Gentium Book Plus",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
                                 "url(https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap)"
                             ]
                         }
                     ]
                 },
                 {
-                    "fontFamily": "outfit",
-                    "name": "Outfit",
-                    "slug": "outfit",
+                    "name": "Monospace",
+                    "slug": "monospace",
+                    "fontFamily": "'b612 mono', courier, monospace",
                     "fontFace": [
                         {
+                            "fontFamily": "B612 Mono",
                             "fontDisplay": "swap",
-                            "fontFamily": "Outfit",
                             "fontStretch": "normal",
-                            "src": "url(https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap)"
-                        }
-                    ]
-                },
-                {
-                    "fontFamily": "be-vietnam-pro",
-                    "name": "Be Vietnam Pro",
-                    "slug": "be-vietnam-pro",
-                    "fontFace": [
-                        {
-                            "fontDisplay": "swap",
-                            "fontFamily": "Be Vietnam Pro",
-                            "fontStretch": "normal",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
                             "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap)"
+                                "url(https://fonts.googleapis.com/css2?family=B612+Mono&display=swap)"
                             ]
                         }
                     ]
                 },
                 {
-                    "fontFamily": "bebas-neue",
-                    "name": "Bebas Neue",
-                    "slug": "bebas-neue",
+                    "name": "Cursive",
+                    "slug": "cursive",
+                    "fontFamily": "'Dancing Script', 'Blackjack', cursive",
                     "fontFace": [
                         {
+                            "fontFamily": "Dancing Script",
                             "fontDisplay": "swap",
-                            "fontFamily": "Be Vietnam Pro",
+                            "fontStretch": "normal",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Small Caps",
+                    "slug": "small-caps",
+                    "fontFamily": "'playfair display SC', 'mate-sc'",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Mate SC",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Mate+SC&display=swap)"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Playfair Display SC",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Bebas Neue",
+                    "slug": "bebas-neue",
+                    "fontFamily": "bebas-neue",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Bebas Neue",
+                            "fontDisplay": "swap",
                             "fontStretch": "normal",
                             "fontWeight": "400",
                             "fontStyle": "normal",
@@ -490,49 +564,13 @@
                     ]
                 },
                 {
-                    "fontFamily": "playfair-display",
-                    "name": "Playfair Display",
-                    "slug": "playfair-display"
-                },
-                {
-                    "fontFamily": "playfair-display-sc",
-                    "name": "Playfair Display SC",
-                    "slug": "playfair-display-sc"
-                },
-                {
-                    "fontFamily": "'b612 mono', monospace",
-                    "name": "Monospace",
-                    "slug": "monospace"
-                },
-                {
-                    "fontFamily": "'Dancing Script', 'Blackjack', cursive",
-                    "name": "Cursive",
-                    "slug": "cursive"
-                },
-                {
-                    "fontFamily": "dancing-script",
-                    "name": "Dancing Script",
-                    "slug": "dancing-script",
-                    "fontFace": [
-                        {
-                            "fontDisplay": "swap",
-                            "fontFamily": "Outfit",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
                     "fontFamily": "the-girl-next-door",
-                    "name": "The Girl Next Door",
-                    "slug": "the-girl-next-door",
+                    "name": "Handwriting",
+                    "slug": "handwriting",
                     "fontFace": [
                         {
+                            "fontFamily": "The Girl Next Door",
                             "fontDisplay": "swap",
-                            "fontFamily": "Outfit",
                             "fontStretch": "normal",
                             "fontStyle": "normal",
                             "src": [
@@ -542,21 +580,32 @@
                     ]
                 },
                 {
-                    "fontFamily": "b612-mono",
-                    "name": "B612 Mono",
-                    "slug": "b612-mono"
-                },
-                {
                     "name": "icon",
                     "slug": "icon",
-                    "fontFamily": "Material Symbols Outlined",
+                    "fontFamily": "'Material Symbols Outlined', 'Material Symbols Rounded', 'Material Symbols Twotone'",
                     "fontFace": [
                         {
+                            "fontFamily": "Material Symbols Outlined",
                             "fontDisplay": "swap",
-                            "fontFamily": "Outfit",
                             "fontStretch": "normal",
                             "src": [
                                 "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Material Symbols Rounded",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Material Symbols Twotone",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Twotone:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
                             ]
                         }
                     ]
@@ -682,52 +731,52 @@
             },
             "heading": {
                 "letterSpacing": "0.03em",
-                "lineHeight": "1.15em",
+                "lineHeight": "1.5em",
                 "CSS": "word-spacing: 0.1em; padding-top: 1rem; padding-bottom: 0.5em;"
             },
             "h1": {
                 "typography": {
                     "fontFamily": "'Dancing Script', cursive",
-                    "fontSize": "xx-large"
+                    "fontSize": "giant"
                 }
             },
             "h2": {
                 "typography": {
-                    "fontFamily": "'Bebas Neue', Oswald, Antonio",
+                    "fontFamily": "'Bebas Neue', Oswald, Antonio, Impact",
                     "fontSize": "x-large",
                     "fontWeight": "400"
                 }
             },
             "h3": {
                 "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', serif",
+                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif",
                     "fontSize": "large",
                     "CSS": "font-variant: small-caps;"
                 }
             },
             "h4": {
                 "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', serif"
+                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
                 }
             },
             "h5": {
                 "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', serif"
+                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
                 }
             },
             "h6": {
                 "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', serif"
+                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
                 }
             }
         },
         "Blocks": {
             "core/paragraph": {
                 "typography": {
-                    "fontFamily": "Outfit, Urbanist, Helvetica, Verdana sans-serif",
+                    "fontFamily": "Outfit, sans-serif",
                     "fontSize": "medium",
                     "letterSpacing": "0.01em",
-                    "lineHeight": "1.5em",
+                    "lineHeight": "2em",
                     "CSS": "word-spacing: 0.1em;"
                 },
                 "spacing": {}
@@ -785,6 +834,7 @@
             "name": "canvas",
             "title": "Canvas",
             "postTypes": [
+                "page",
                 "post"
             ]
         },
@@ -811,6 +861,11 @@
             "name": "sidebar",
             "title": "Sidebar",
             "area": "sidebar"
+        },
+        {
+            "name": "general",
+            "title": "General",
+            "area": "general"
         }
     ]
 }
