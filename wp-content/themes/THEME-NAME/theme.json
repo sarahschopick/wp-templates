@@ -511,7 +511,6 @@
                             "fontFamily": "Dancing Script",
                             "fontDisplay": "swap",
                             "fontStretch": "normal",
-                            "fontWeight": "400",
                             "fontStyle": "normal",
                             "src": [
                                 "url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap)"
@@ -522,8 +521,18 @@
                 {
                     "name": "Small Caps",
                     "slug": "small-caps",
-                    "fontFamily": "'playfair display SC', 'mate-sc'",
+                    "fontFamily": "'Marcellus SC','playfair display SC', 'mate sc'",
                     "fontFace": [
+                        {
+                            "fontFamily": "Marcellus SC",
+                            "fontDisplay": "swap",
+                            "fontStretch": "normal",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "src": [
+                                "url(https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap)"
+                            ]
+                        },
                         {
                             "fontFamily": "Mate SC",
                             "fontDisplay": "swap",
@@ -549,7 +558,7 @@
                 {
                     "name": "Bebas Neue",
                     "slug": "bebas-neue",
-                    "fontFamily": "bebas-neue",
+                    "fontFamily": "bebas neue",
                     "fontFace": [
                         {
                             "fontFamily": "Bebas Neue",
@@ -564,7 +573,7 @@
                     ]
                 },
                 {
-                    "fontFamily": "the-girl-next-door",
+                    "fontFamily": "the girl next door",
                     "name": "Handwriting",
                     "slug": "handwriting",
                     "fontFace": [
@@ -617,8 +626,8 @@
                     "size": "clamp(12px, 1.5vw, 14px)",
                     "slug": "x-small",
                     "fluid": {
-                        "max": "12px",
-                        "min": "14px"
+                        "min": "12px",
+                        "max": "14px"
                     }
                 },
                 {
@@ -626,8 +635,8 @@
                     "size": "clamp(14px, 1.6vw, 16px)",
                     "slug": "small",
                     "fluid": {
-                        "max": "14px",
-                        "min": "16px"
+                        "min": "14px",
+                        "max": "16px"
                     }
                 },
                 {
@@ -635,8 +644,8 @@
                     "size": "clamp(16px, 1.8vw, 18px)",
                     "slug": "medium",
                     "fluid": {
-                        "max": "16px",
-                        "min": "18px"
+                        "min": "16px",
+                        "max": "18px"
                     }
                 },
                 {
@@ -644,8 +653,8 @@
                     "size": "clamp(20px, 2.2vw, 22px)",
                     "slug": "large",
                     "fluid": {
-                        "max": "20px",
-                        "min": "22px"
+                        "min": "20px",
+                        "max": "22px"
                     }
                 },
                 {
@@ -653,8 +662,8 @@
                     "size": "clamp(24px, 3vw, 28px)",
                     "slug": "x-large",
                     "fluid": {
-                        "max": "24px",
-                        "min": "28px"
+                        "min": "24px",
+                        "max": "28px"
                     }
                 }
             ],
