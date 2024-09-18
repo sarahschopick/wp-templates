@@ -1,459 +1,403 @@
 {
-  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
-  "version": 3,
-  "settings": {
-    "appearanceTools": true,
-    "border": {
-      "color": true,
-      "radius": true,
-      "style": true,
-      "width": true
-    },
-    "color": {
-      "background": true,
-      "custom": true,
-      "customDuotone": true,
-      "customGradient": true,
-      "defaultDuotone": true,
-      "defaultGradients": true,
-      "defaultPalette": true,
-      "link": true,
-      "duotone": [
-        {
-          "colors": [
-            "#fff",
-            "#fff"
-          ],
-          "slug": "white-on-white",
-          "name": "white on white"
-        },
-        {
-          "colors": [
-            "#000",
-            "#000"
-          ],
-          "slug": "black-on-black",
-          "name": "black on black"
-        },
-        {
-          "colors": [
-            "#000",
-            "#fff"
-          ],
-          "slug": "black-and-white",
-          "name": "black and white"
-        },
-        {
-          "colors": [
-            "#fff",
-            "#000"
-          ],
-          "slug": "white-and-black",
-          "name": "white and black"
-        }
-      ],
-      "gradients": [
-        {
-          "slug": "vertical-secondary-to-tertiary",
-          "gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
-          "name": "Vertical secondary to tertiary"
-        },
-        {
-          "slug": "vertical-secondary-to-background",
-          "gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%)",
-          "name": "Vertical secondary to background"
-        },
-        {
-          "slug": "vertical-tertiary-to-background",
-          "gradient": "linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%)",
-          "name": "Vertical tertiary to background"
-        },
-        {
-          "slug": "diagonal-primary-to-foreground",
-          "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%)",
-          "name": "Diagonal primary to foreground"
-        },
-        {
-          "slug": "diagonal-secondary-to-background",
-          "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
-          "name": "Diagonal secondary to background"
-        },
-        {
-          "slug": "diagonal-background-to-secondary",
-          "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%)",
-          "name": "Diagonal background to secondary"
-        },
-        {
-          "slug": "diagonal-tertiary-to-background",
-          "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%)",
-          "name": "Diagonal tertiary to background"
-        },
-        {
-          "slug": "diagonal-background-to-tertiary",
-          "gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%)",
-          "name": "Diagonal background to tertiary"
-        }
-      ],
-      "palette": [
-        {
-          "slug": "foreground",
-          "color": "#000000",
-          "name": "Foreground"
-        },
-        {
-          "slug": "background",
-          "color": "#ffffff",
-          "name": "Background"
-        },
-        {
-          "slug": "primary",
-          "color": "#1a4548",
-          "name": "Primary"
-        },
-        {
-          "slug": "secondary",
-          "color": "#ffe2c7",
-          "name": "Secondary"
-        },
-        {
-          "slug": "tertiary",
-          "color": "#F6F6F6",
-          "name": "Tertiary"
-        }
-      ],
-      "text": true
-    },
-    "custom": {
-      "typography": {
-        "fontSize": [
-          {
-            "name": "XX-Small",
-            "size": "clamp(12px, 2vw, 14px)",
-            "slug": "xx-small",
-            "fluid": {
-              "min": "12px",
-              "max": "14px"
-            }
-          },
-          {
-            "name": "Gigantic",
-            "size": "clamp(2.25rem, 7vw, 3rem)",
-            "slug": "gigantic",
-            "fluid": {
-              "min": "2.25rem",
-              "max": "3rem"
-            }
-          },
-          {
-            "name": "Colossal",
-            "size": "clamp(2.25rem, 8vw, 4rem)",
-            "slug": "colossal",
-            "fluid": {
-              "min": "2.25rem",
-              "max": "4rem"
-            }
-          }
-        ]
-      },
-      "color": {
-        "palette": [
-          {
-            "slug": "foreground",
-            "color": "",
-            "name": "Foreground"
-          },
-          {
-            "slug": "background",
-            "color": "",
-            "name": "Background"
-          },
-          {
-            "slug": "primary",
-            "color": "",
-            "name": "Primary"
-          },
-          {
-            "slug": "secondary",
-            "color": "",
-            "name": "Secondary"
-          },
-          {
-            "slug": "tertiary",
-            "color": "",
-            "name": "Tertiary"
-          }
-        ],
-        "gradients": [
-          {
-            "gradient": "linear-gradient(180deg,rgb(164,64,88) 0%,rgb(105,9,49) 100%)",
-            "slug": "magenta",
-            "name": "magenta"
-          },
-          {
-            "gradient": "linear-gradient(180deg,rgb(249,241,240) 8%,rgb(250,220,217) 100%)",
-            "slug": "light-blush",
-            "name": "light blush"
-          },
-          {
-            "gradient": "linear-gradient(180deg,rgb(230,209,210) 0%,rgb(171,138,138) 100%)",
-            "slug": "neutral-beige",
-            "name": "Neutral Beige"
-          },
-          {
-            "gradient": "linear-gradient(180deg,rgb(143,162,166) 0%,rgb(68,90,103) 100%)",
-            "slug": "blue-gray",
-            "name": "Blue Gray"
-          },
-          {
-            "gradient": "linear-gradient(180deg,rgb(179,240,240) 8%,rgb(27,133,162) 100%)",
-            "slug": "tiffany-blue",
-            "name": "tiffany blue"
-          },
-          {
-            "gradient": "linear-gradient(180deg,rgb(212,241,244) 8%,rgb(5,68,94) 100%)",
-            "slug": "ocean-blue",
-            "name": "Ocean Blue"
-          },
-          {
-            "gradient": "linear-gradient(180deg,rgb(147,238,238) 8%,rgb(24,154,180) 100%)",
-            "slug": "island-lagoon",
-            "name": "Island Lagoon"
-          }
-        ]
-      }
-    },
-    "layout": {
-      "contentSize": "var(--global-calc-content-width)",
-      "wideSize": "var(--global-calc-wide-content-width)",
-      "fullSize": "none"
-    },
-    "spacing": {
-      "blockGap": null,
-      "margin": true,
-      "padding": true,
-      "units": [
-        "px",
-        "em",
-        "rem",
-        "vh",
-        "vw",
-        "%"
-      ]
-    },
-    "useRootPaddingAwareAlignments": true,
-    "blocks": {
-      "core/button": {
-        "border": {
-          "radius": true
-        }
-      },
-      "core/pullquote": {
-        "border": {
-          "color": true,
-          "radius": true,
-          "style": true,
-          "width": true
-        }
-      }
-    },
-    "typography": {
-      "customFontSize": true,
-      "dropCap": true,
-      "fluid": true,
-      "fontFamilies": [
-        {
-          "name": "Sans Serif",
-          "slug": "sans-serif",
-          "fontFamily": "outfit, 'be vietnam pro', 'open sans','helvetica neue', verdana, 'helvetica', sans-serif",
-          "fontFace": [
-            {
-              "fontFamily": "Outfit",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Outfit&display=swap);"
-              ]
-            },
-            {
-              "fontFamily": "Open Sans",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap)"
-              ]
-            },
-            {
-              "fontFamily": "Be Vietnam Pro",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap)"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Serif",
-          "slug": "serif",
-          "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Optima', Times New Roman', 'Times', 'Noto Serif', serif",
-          "fontFace": [
-            {
-              "fontFamily": "Newsreader",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Newsreader&display=swap);"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Cursive",
-          "slug": "cursive",
-          "fontFamily": "'Dancing Script', 'Blackjack', 'Cookie', 'Petite Formal Script', 'Georgia Italic', cursive",
-          "fontFace": [
-            {
-              "fontFamily": "Dancing Script",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap)"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Bebas Neue",
-          "slug": "bebas-neue",
-          "fontFamily": "'Bebas Neue', 'impact'",
-          "fontFace": [
-            {
-              "fontFamily": "Bebas Neue",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "fontWeight": "400",
-              "fontStyle": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap)"
-              ]
-            }
-          ]
-        },
-        {
-          "fontFamily": "The Girl Next Door",
-          "name": "Handwriting",
-          "slug": "handwriting",
-          "fontFace": [
-            {
-              "fontFamily": "The Girl Next Door",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "fontStyle": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap)"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "icon",
-          "slug": "icon",
-          "fontFamily": "'Material Symbols Outlined', 'Material Symbols Rounded', 'Material Symbols Twotone'",
-          "fontFace": [
-            {
-              "fontFamily": "Material Symbols Outlined",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
-              ]
-            },
-            {
-              "fontFamily": "Material Symbols Rounded",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
-              ]
-            },
-            {
-              "fontFamily": "Material Symbols Twotone",
-              "fontDisplay": "swap",
-              "fontStretch": "normal",
-              "src": [
-                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Twotone:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
-              ]
-            }
-          ]
-        }
-      ],
-      "fontSizes": [
-        {
-          "name": "X Small",
-          "size": "clamp(14px, 2.5vw, 1rem)",
-          "slug": "x-small",
-          "fluid": {
-            "min": "14px",
-            "max": "1rem"
-          }
-        },
-        {
-          "name": "Small",
-          "size": "clamp(1rem, 3vw, 1.1rem)",
-          "slug": "small",
-          "fluid": {
-            "min": "1rem",
-            "max": "1.1rem"
-          }
-        },
-        {
-          "name": "Medium",
-          "size": "clamp(1.1rem, 3.5vw, 1.25rem)",
-          "slug": "medium",
-          "fluid": {
-            "min": "1.1rem",
-            "max": "1.25rem"
-          }
-        },
-        {
-          "name": "Large",
-          "size": "clamp(1.25rem, 4vw, 1.5rem)",
-          "slug": "large",
-          "fluid": {
-            "min": "1.25rem",
-            "max": "1.5rem"
-          }
-        },
-        {
-          "name": "X Large",
-          "size": "clamp(1.5rem, 5vw, 1.75rem)",
-          "slug": "x-large",
-          "fluid": {
-            "min": "1.5rem",
-            "max": "1.75rem"
-          }
-        },
-        {
-          "name": "Huge",
-          "size": "clamp(1.75rem, 6vw, 2.25rem)",
-          "slug": "xx-large",
-          "fluid": {
-            "min": "1.75rem",
-            "max": "2.25rem"
-          }
-        }
-      ],
-      "fontStyle": true,
-      "fontWeight": true,
-      "letterSpacing": true,
-      "lineHeight": true,
-      "textDecoration": true,
-      "textTransform": true
-    }
-  },
-  "styles": {},
-  "customTemplates": {},
-  "templateParts": {},
-  "patterns": {}
-}
+		"$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+		"version": 3,
+		"settings": {
+			"appearanceTools": true,
+			"border": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			},
+			"color": {
+				"background": true,
+				"custom": true,
+				"customDuotone": true,
+				"customGradient": true,
+				"defaultDuotone": true,
+				"defaultGradients": true,
+				"defaultPalette": true,
+				"link": true,
+				"duotone": [{
+						"colors": [
+							"#fff",
+							"#fff"
+						],
+						"slug": "white-on-white",
+						"name": "white on white"
+					},
+					{
+						"colors": [
+							"#000",
+							"#000"
+						],
+						"slug": "black-on-black",
+						"name": "black on black"
+					},
+					{
+						"colors": [
+							"#000",
+							"#fff"
+						],
+						"slug": "black-and-white",
+						"name": "black and white"
+					},
+					{
+						"colors": [
+							"#fff",
+							"#000"
+						],
+						"slug": "white-and-black",
+						"name": "white and black"
+					}
+				],
+				"gradients": [{
+						"slug": "vertical-secondary-to-tertiary",
+						"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
+						"name": "Vertical secondary to tertiary"
+					},
+					{
+						"slug": "vertical-secondary-to-background",
+						"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%)",
+						"name": "Vertical secondary to background"
+					},
+					{
+						"slug": "vertical-tertiary-to-background",
+						"gradient": "linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%)",
+						"name": "Vertical tertiary to background"
+					},
+					{
+						"slug": "diagonal-primary-to-foreground",
+						"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%)",
+						"name": "Diagonal primary to foreground"
+					},
+					{
+						"slug": "diagonal-secondary-to-background",
+						"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
+						"name": "Diagonal secondary to background"
+					},
+					{
+						"slug": "diagonal-background-to-secondary",
+						"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%)",
+						"name": "Diagonal background to secondary"
+					},
+					{
+						"slug": "diagonal-tertiary-to-background",
+						"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%)",
+						"name": "Diagonal tertiary to background"
+					},
+					{
+						"slug": "diagonal-background-to-tertiary",
+						"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%)",
+						"name": "Diagonal background to tertiary"
+					}
+				],
+				"palette": [{
+						"slug": "foreground",
+						"color": "#000000",
+						"name": "Foreground"
+					},
+					{
+						"slug": "background",
+						"color": "#ffffff",
+						"name": "Background"
+					},
+					{
+						"slug": "primary",
+						"color": "#1a4548",
+						"name": "Primary"
+					},
+					{
+						"slug": "secondary",
+						"color": "#ffe2c7",
+						"name": "Secondary"
+					},
+					{
+						"slug": "tertiary",
+						"color": "#F6F6F6",
+						"name": "Tertiary"
+					}
+				],
+				"text": true
+			},
+			"custom": {
+				"typography": {
+					"fontSize": [{
+							"name": "XX-Small",
+							"size": "clamp(12px, 2vw, 14px)",
+							"slug": "xx-small",
+							"fluid": {
+								"min": "12px",
+								"max": "14px"
+							}
+						},
+						{
+							"name": "Gigantic",
+							"size": "clamp(2.25rem, 7vw, 3rem)",
+							"slug": "gigantic",
+							"fluid": {
+								"min": "2.25rem",
+								"max": "3rem"
+							}
+						},
+						{
+							"name": "Colossal",
+							"size": "clamp(2.25rem, 8vw, 4rem)",
+							"slug": "colossal",
+							"fluid": {
+								"min": "2.25rem",
+								"max": "4rem"
+							}
+						}
+					]
+				},
+				"color": {
+					"palette": [{
+							"slug": "foreground",
+							"color": "",
+							"name": "Foreground"
+						},
+						{
+							"slug": "background",
+							"color": "",
+							"name": "Background"
+						},
+						{
+							"slug": "primary",
+							"color": "",
+							"name": "Primary"
+						},
+						{
+							"slug": "secondary",
+							"color": "",
+							"name": "Secondary"
+						},
+						{
+							"slug": "tertiary",
+							"color": "",
+							"name": "Tertiary"
+						}
+					],
+					"gradients": []
+				}
+			},
+			"layout": {
+				"contentSize": "var(--global-calc-content-width)",
+				"wideSize": "var(--global-calc-wide-content-width)",
+				"fullSize": "none"
+			},
+			"spacing": {
+				"blockGap": null,
+				"margin": true,
+				"padding": true,
+				"units": [
+					"px",
+					"em",
+					"rem",
+					"vh",
+					"vw",
+					"%"
+				]
+			},
+			"useRootPaddingAwareAlignments": true,
+			"blocks": {
+				"core/button": {
+					"border": {
+						"radius": true
+					}
+				},
+				"core/pullquote": {
+					"border": {
+						"color": true,
+						"radius": true,
+						"style": true,
+						"width": true
+					}
+				}
+			},
+			"typography": {
+				"customFontSize": true,
+				"dropCap": true,
+				"fluid": true,
+				"fontFamilies": [{
+						"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+						"name": "System Font",
+						"slug": "system-font"
+					},
+					{
+						"name": "Sans Serif",
+						"slug": "sans-serif",
+						"fontFamily": "outfit, 'open sans','helvetica neue', 'helvetica', verdana, sans-serif",
+						"fontFace": [{
+								"fontFamily": "Outfit",
+								"fontDisplay": "swap",
+								"fontStretch": "normal",
+								"src": [
+									"url(https://fonts.googleapis.com/css2?family=Outfit&display=swap);"
+								]
+							},
+							{
+								"fontFamily": "Open Sans",
+								"fontDisplay": "swap",
+								"fontStretch": "normal",
+								"src": [
+									"url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap)"
+								]
+							}
+						]
+					},
+					{
+						"name": "Serif",
+						"slug": "serif",
+						"fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Optima', Times New Roman', 'Times', 'Noto Serif', serif",
+						"fontFace": [{
+							"fontFamily": "Newsreader",
+							"fontDisplay": "swap",
+							"fontStretch": "normal",
+							"src": [
+								"url(https://fonts.googleapis.com/css2?family=Newsreader&display=swap);"
+							]
+						}]
+					},
+					{
+						"name": "Cursive",
+						"slug": "cursive",
+						"fontFamily": "'Dancing Script', 'Georgia Italic', cursive",
+						"fontFace": [{
+							"fontFamily": "Dancing Script",
+							"fontDisplay": "swap",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"src": [
+								"url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap)"
+							]
+						}]
+					},
+					{
+						"name": "Bebas Neue",
+						"slug": "bebas-neue",
+						"fontFamily": "'Bebas Neue', 'impact'",
+						"fontFace": [{
+							"fontFamily": "Bebas Neue",
+							"fontDisplay": "swap",
+							"fontStretch": "normal",
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"src": [
+								"url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap)"
+							]
+						}]
+					},
+					{
+						"fontFamily": "The Girl Next Door",
+						"name": "Handwriting",
+						"slug": "handwriting",
+						"fontFace": [{
+							"fontFamily": "The Girl Next Door",
+							"fontDisplay": "swap",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"src": [
+								"url(https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap)"
+							]
+						}]
+					},
+					{
+						"name": "icon",
+						"slug": "icon",
+						"fontFamily": "'Material Symbols Outlined', 'Material Symbols Rounded', 'Material Symbols Twotone'",
+						"fontFace": [{
+								"fontFamily": "Material Symbols Outlined",
+								"fontDisplay": "swap",
+								"fontStretch": "normal",
+								"src": [
+									"url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
+								]
+							},
+							{
+								"fontFamily": "Material Symbols Rounded",
+								"fontDisplay": "swap",
+								"fontStretch": "normal",
+								"src": [
+									"url(https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
+								]
+							},
+							{
+								"fontFamily": "Material Symbols Twotone",
+								"fontDisplay": "swap",
+								"fontStretch": "normal",
+								"src": [
+									"url(https://fonts.googleapis.com/css2?family=Material+Symbols+Twotone:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
+								]
+							}
+						]
+					}
+				],
+				"fontSizes": [{
+						"name": "X Small",
+						"size": "clamp(14px, 2.5vw, 1rem)",
+						"slug": "x-small",
+						"fluid": {
+							"min": "14px",
+							"max": "1rem"
+						}
+					},
+					{
+						"name": "Small",
+						"size": "clamp(1rem, 3vw, 1.1rem)",
+						"slug": "small",
+						"fluid": {
+							"min": "1rem",
+							"max": "1.1rem"
+						}
+					},
+					{
+						"name": "Medium",
+						"size": "clamp(1.1rem, 3.5vw, 1.25rem)",
+						"slug": "medium",
+						"fluid": {
+							"min": "1.1rem",
+							"max": "1.25rem"
+						}
+					},
+					{
+						"name": "Large",
+						"size": "clamp(1.25rem, 4vw, 1.5rem)",
+						"slug": "large",
+						"fluid": {
+							"min": "1.25rem",
+							"max": "1.5rem"
+						}
+					},
+					{
+						"name": "X Large",
+						"size": "clamp(1.5rem, 5vw, 1.75rem)",
+						"slug": "x-large",
+						"fluid": {
+							"min": "1.5rem",
+							"max": "1.75rem"
+						}
+					},
+					{
+						"name": "Huge",
+						"size": "clamp(1.75rem, 6vw, 2.25rem)",
+						"slug": "xx-large",
+						"fluid": {
+							"min": "1.75rem",
+							"max": "2.25rem"
+						}
+					}
+				],
+				"fontStyle": true,
+				"fontWeight": true,
+				"letterSpacing": true,
+				"lineHeight": true,
+				"textDecoration": true,
+				"textTransform": true
+			}
+		},
+		"styles": {},
+		"customTemplates": {},
+		"templateParts": {},
+		"patterns": {}
+	}
