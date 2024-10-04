@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* Global variables are defined in theme.json */ 
+:root {
+  /* Font Sizing
+   * ---------------------------------------------------------*/
+  --wp--custom--typography--font-size--small: clamp(
+    0.8rem,
+    0.25vw + 0.74rem,
+    0.94rem
+  );
+  --wp--custom--typography--font-size--small: 0.8rem;
+  --wp--custom--typography--font-size--normal: clamp(
+    1rem,
+    0.23vw + 0.94rem,
+    1.13rem
+  );
+  --wp--custom--typography--font-size--normal: 1rem;
+  --wp--custom--typography--font-size--medium: clamp(
+    1.15rem,
+    0.47vw + 1.03rem,
+    1.41rem
+  );
+  --wp--custom--typography--font-size--medium: 1.15rem;
+  --wp--custom--typography--font-size--large: clamp(
+    1.32rem,
+    0.79vw + 1.12rem,
+    1.76rem
+  );
+  --wp--custom--typography--font-size--large: 1.32rem;
+  --wp--custom--typography--font-size--x-large: clamp(
+    1.52rem,
+    1.23vw + 1.21rem,
+    2.2rem
+  );
+  --wp--custom--typography--font-size--x-large: 1.52rem;
+  --wp--custom--typography--font-size--xx-large: clamp(
+    1.75rem,
+    1.81vw + 1.3rem,
+    2.75rem
+  );
+  --wp--custom--typography--font-size--xx-large: 1.75rem;
+  --wp--custom--typography--font-size--gigantic: clamp(
+    2.01rem,
+    2.59vw + 1.37rem,
+    3.43rem
+  );
+  --wp--custom--typography--font-size--gigantic: 2.01rem;
+  --wp--custom--typography--font-size--colossal: clamp(
+    2.31rem,
+    3.6vw + 1.41rem,
+    4.29rem
+  );
+  --wp--custom--typography--font-size--colossal: 2.31rem;
+    /* Font Styling
+   * ----------------------------------------------------------*/
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+  word-spacing: 0.1em;
+  text-rendering: optimizeLegibility;
+  font-optical-sizing: auto;
+  font-synthesis: auto;
+  font-kerning: auto;
+  /* Body
+   * ----------------------------------------------------------*/
+  contain: content;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Typography
+   * ----------------------------------------------------------*/
+  font-size: 100%;
+  font-size: var(--wp--custom--typography--font-size--normal);
+  line-height: 1.5;
+  font-family: var(--wp--custom--typography--font-family--sans-serif),
+    sans-serif;
+  font-size-adjust: ex-height;
+  -moz-font-smoothing: subpixel-antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -o-font-smoothing: subpixel-antialiased;
+  font-smoothing: subpixel-antialiased;
+  /* Layout
+   * ----------------------------------------------------------*/
+  contain: content;
+  display: flex;
+  max-width: 100%;
+  width: 100vw;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  justify-content: center;
+  padding-top: 0 !important;
+  padding-right: 0;
+  padding-bottom: 0 !important;
+  padding-left: 0;
+  margin: 0 !important;
+}
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+html {
+  max-width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  line-height: 1.15;
+  font-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.hide {
+  display: none;
+}
+.invisible {
+  visibility: hidden;
+}
+[hidden], template {
+  display: none; }
+
+
+/* Box Sizing
+ * ------------------------------------------------------------*/
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+html,
+body {
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important;
+  -o-box-sizing: border-box !important;
+  box-sizing: border-box !important;
+}
