@@ -1,6 +1,10 @@
 /*--------------------------------------------------------------
-# Accessibility
+# Responsive
 --------------------------------------------------------------*/
+.dark-mode {
+  background: black;
+  color: #f9f9f9;
+}
 @media (prefers-color-scheme: dark) {
   img,
   video {
@@ -17,4 +21,54 @@
   video {
     filter: invert(100%);
   }
+}
+@media screen and (min-width: 1280px) {
+  :root {
+    --wp--custom--typography--font-size--small: 0.94rem;
+    --wp--custom--typography--font-size--normal: 1.25rem;
+    --wp--custom--typography--font-size--medium: 1.41rem;
+    --wp--custom--typography--font-size--large: 1.76rem;
+    --wp--custom--typography--font-size--x-large: 2.2rem;
+    --wp--custom--typography--font-size--xx-large: 2.75rem;
+    --wp--custom--typography--font-size--gigantic: 3.43rem;
+    --wp--custom--typography--font-size--colossal: 4.29rem;
+  }
+}
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  word-wrap: normal !important;
+  /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+.screen-reader-text:focus {
+  background-color: #000;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+  outline: 0;
 }
