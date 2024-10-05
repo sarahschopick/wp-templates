@@ -1,880 +1,873 @@
 {
-    "version": 3,
-    "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
-    "settings": {
-        "appearanceTools": true,
-        "border": {
-            "color": true,
-            "radius": true,
-            "style": true,
-            "width": true
-        },
-        "color": {
-            "background": true,
-            "custom": true,
-            "customDuotone": true,
-            "customGradient": true,
-            "defaultDuotone": true,
-            "defaultGradients": true,
-            "defaultPalette": true,
-            "link": true,
-            "duotone": [
-                {
-                    "colors": [
-                        "#fff",
-                        "#fff"
-                    ],
-                    "slug": "white-on-white",
-                    "name": "white on white"
-                },
-                {
-                    "colors": [
-                        "#000",
-                        "#000"
-                    ],
-                    "slug": "black-on-black",
-                    "name": "black on black"
-                },
-                {
-                    "colors": [
-                        "#000",
-                        "#fff"
-                    ],
-                    "slug": "black-and-white",
-                    "name": "black and white"
-                },
-                {
-                    "colors": [
-                        "#fff",
-                        "#000"
-                    ],
-                    "slug": "white-and-black",
-                    "name": "white and black"
-                }
-            ],
-            "gradients": [
-                {
-                    "gradient": "linear-gradient(180deg,rgb(164,64,88) 0%,rgb(105,9,49) 100%)",
-                    "slug": "magenta",
-                    "name": "magenta"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,rgb(249,241,240) 8%,rgb(250,220,217) 100%)",
-                    "slug": "light-blush",
-                    "name": "light blush"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,rgb(230,209,210) 0%,rgb(171,138,138) 100%)",
-                    "slug": "neutral-beige",
-                    "name": "Neutral Beige"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,rgb(143,162,166) 0%,rgb(68,90,103) 100%)",
-                    "slug": "blue-gray",
-                    "name": "Blue Gray"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,rgb(179,240,240) 8%,rgb(27,133,162) 100%)",
-                    "slug": "tiffany-blue",
-                    "name": "tiffany blue"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,rgb(212,241,244) 8%,rgb(5,68,94) 100%)",
-                    "slug": "ocean-blue",
-                    "name": "Ocean Blue"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,rgb(147,238,238) 8%,rgb(24,154,180) 100%)",
-                    "slug": "island-lagoon",
-                    "name": "Island Lagoon"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-secondary) 100%)",
-                    "slug": "vertical-primary-secondary",
-                    "name": "Vertical primary to secondary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent) 100%)",
-                    "slug": "vertical-primary-accent",
-                    "name": "Vertical primary to accent"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-2) 100%)",
-                    "slug": "vertical-primary-accent-2",
-                    "name": "Vertical primary to accent-2"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-3) 100%)",
-                    "slug": "vertical-primary-accent-3",
-                    "name": "Vertical primary to accent-3"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-4) 100%)",
-                    "slug": "vertical-primary-accent-4",
-                    "name": "Vertical primary to accent-4"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-5) 100%)",
-                    "slug": "vertical-primary-accent-5",
-                    "name": "Vertical primary to accent-5"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent) 100%)",
-                    "slug": "vertical-secondary-accent",
-                    "name": "Vertical secondary to accent"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-2) 100%)",
-                    "slug": "vertical-secondary-accent-2",
-                    "name": "Vertical secondary to accent-2"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-3) 100%)",
-                    "slug": "vertical-secondary-accent-3",
-                    "name": "Vertical secondary to accent-3"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-4) 100%)",
-                    "slug": "vertical-secondary-accent-4",
-                    "name": "Vertical secondary to accent-4"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-5) 100%)",
-                    "slug": "vertical-secondary-accent-5",
-                    "name": "Vertical secondary to accent-5"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-primary) 100%)",
-                    "slug": "vertical-accent-primary",
-                    "name": "Vertical accent to primary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-secondary) 100%)",
-                    "slug": "vertical-accent-secondary",
-                    "name": "Vertical accent to secondary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-2) 100%)",
-                    "slug": "vertical-accent-accent-2",
-                    "name": "Vertical accent to accent-2"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-3) 100%)",
-                    "slug": "vertical-accent-accent-3",
-                    "name": "Vertical accent to accent-3"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-4) 100%)",
-                    "slug": "vertical-accent-accent-4",
-                    "name": "Vertical accent to accent-4"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-5) 100%)",
-                    "slug": "vertical-accent-accent-5",
-                    "name": "Vertical accent to accent-5"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-primary) 100%)",
-                    "slug": "vertical-accent-2-primary",
-                    "name": "Vertical accent-2 to primary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-secondary) 100%)",
-                    "slug": "vertical-accent-2-secondary",
-                    "name": "Vertical accent-2 to secondary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent) 100%)",
-                    "slug": "vertical-accent-2-accent",
-                    "name": "Vertical accent-2 to accent"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent-3) 100%)",
-                    "slug": "vertical-accent-2-accent-3",
-                    "name": "Vertical accent-2 to accent-3"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent-4) 100%)",
-                    "slug": "vertical-accent-2-accent-4",
-                    "name": "Vertical accent-2 to accent-4"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent-5) 100%)",
-                    "slug": "vertical-accent-2-accent-5",
-                    "name": "Vertical accent-2 to accent-5"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-primary) 100%)",
-                    "slug": "vertical-accent-3-primary",
-                    "name": "Vertical accent-3 to primary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-secondary) 100%)",
-                    "slug": "vertical-accent-3-secondary",
-                    "name": "Vertical accent-3 to secondary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent) 100%)",
-                    "slug": "vertical-accent-3-accent",
-                    "name": "Vertical accent-3 to accent"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent-2) 100%)",
-                    "slug": "vertical-accent-3-accent-2",
-                    "name": "Vertical accent-3 to accent-2"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent-4) 100%)",
-                    "slug": "vertical-accent-3-accent-4",
-                    "name": "Vertical accent-3 to accent-4"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent-5) 100%)",
-                    "slug": "vertical-accent-3-accent-5",
-                    "name": "Vertical accent-3 to accent-5"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-primary) 100%)",
-                    "slug": "vertical-accent-4-primary",
-                    "name": "Vertical accent-4 to primary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-secondary) 100%)",
-                    "slug": "vertical-accent-4-secondary",
-                    "name": "Vertical accent-4 to secondary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent) 100%)",
-                    "slug": "vertical-accent-4-accent",
-                    "name": "Vertical accent-4 to accent"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent-2) 100%)",
-                    "slug": "vertical-accent-4-accent-2",
-                    "name": "Vertical accent-4 to accent-2"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent-3) 100%)",
-                    "slug": "vertical-accent-4-accent-3",
-                    "name": "Vertical accent-4 to accent-3"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent-5) 100%)",
-                    "slug": "vertical-accent-4-accent-5",
-                    "name": "Vertical accent-4 to accent-5"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-primary) 100%)",
-                    "slug": "vertical-accent-5-primary",
-                    "name": "Vertical accent-5 to primary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-secondary) 100%)",
-                    "slug": "vertical-accent-5-secondary",
-                    "name": "Vertical accent-5 to secondary"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent) 100%)",
-                    "slug": "vertical-accent-5-accent",
-                    "name": "Vertical accent-5 to accent"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent-2) 100%)",
-                    "slug": "vertical-accent-5-accent-2",
-                    "name": "Vertical accent-5 to accent-2"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent-3) 100%)",
-                    "slug": "vertical-accent-5-accent-3",
-                    "name": "Vertical accent-5 to accent-3"
-                },
-                {
-                    "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent-4) 100%)",
-                    "slug": "vertical-accent-5-accent-4",
-                    "name": "Vertical accent-5 to accent-4"
-                }
-            ],
-            "palette": [
-                {
-                    "color": "#000000",
-                    "slug": "background",
-                    "name": "Background"
-                },
-                {
-                    "color": "#F9F1F0",
-                    "slug": "base-2",
-                    "name": "Base 2"
-                },
-                {
-                    "color": "#f9f9f9",
-                    "slug": "foreground",
-                    "name": "Foreground"
-                },
-                {
-                    "color": "#690931",
-                    "slug": "contrast-2",
-                    "name": "Contrast 2"
-                },
-                {
-                    "color": "#a44058",
-                    "slug": "primary",
-                    "name": "Primary"
-                },
-                {
-                    "color": "#fadcd9",
-                    "slug": "secondary",
-                    "name": "Secondary"
-                },
-                {
-                    "color": "#b76e7c",
-                    "slug": "accent",
-                    "name": "Accent"
-                },
-                {
-                    "color": "#ca3b5d",
-                    "slug": "accent-2",
-                    "name": "accent 2"
-                },
-                {
-                    "color": "#ebe7eb",
-                    "slug": "accent-3",
-                    "name": "Accent 3"
-                },
-                {
-                    "color": "#f48f98",
-                    "slug": "accent-4",
-                    "name": "accent 4"
-                },
-                {
-                    "color": "#E6D1D2",
-                    "slug": "accent-5",
-                    "name": "Accent 5"
-                },
-                {
-                    "color": "#718096",
-                    "slug": "blue-gray",
-                    "name": "Blue Gray"
-                },
-                {
-                    "color": "#8fa2a6",
-                    "slug": "blue-olive",
-                    "name": "Blue Olive"
-                }
-            ],
-            "text": true
-        },
-        "custom": {
-            "spacing": {
-                "small": "max(1.25rem, 5vw)",
-                "medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
-                "large": "clamp(4rem, 10vw, 8rem)",
-                "outer": "var(--wp--custom--spacing--small, 1.25rem)"
-            },
-            "typography": {
-                "fontSize": {
-                    "gigantic": "clamp(3rem, 6vw, 4rem)",
-                    "colossal": "clamp(4rem, 8vw, 6.25rem)"
-                }
-            }
-        },
-        "layout": {
-            "contentSize": "var(--global-calc-content-width)",
-            "wideSize": "var(--global-calc-wide-content-width)"
-        },
-        "spacing": {
-            "blockGap": null,
-            "margin": true,
-            "padding": true,
-            "units": [
-                "px",
-                "em",
-                "rem",
-                "vh",
-                "vw",
-                "%"
-            ]
-        },
-        "useRootPaddingAwareAlignments": true,
-        "blocks": {
-            "core/button": {
-                "border": {
-                    "radius": true
-                }
-            },
-            "core/pullquote": {
-                "border": {
-                    "color": true,
-                    "radius": true,
-                    "style": true,
-                    "width": true
-                }
-            }
-        },
-        "typography": {
-            "customFontSize": true,
-            "dropCap": true,
-            "fluid": true,
-            "fontFamilies": [
-                {
-                    "name": "Sans Serif",
-                    "slug": "sans-serif",
-                    "fontFamily": "outfit, 'be vietnam pro', 'open sans','helvetica neue', verdana, 'helvetica', sans-serif",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Outfit",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap);"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Open Sans",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Be Vietnam Pro",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Serif",
-                    "slug": "serif",
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Newsreader",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap);"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Bookman Old Style",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Bookman+Old+Style&display=swap)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Playfair Display",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Playflair+Display&display=swap)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Gentium Book Plus",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Monospace",
-                    "slug": "monospace",
-                    "fontFamily": "'b612 mono', courier, monospace",
-                    "fontFace": [
-                        {
-                            "fontFamily": "B612 Mono",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=B612+Mono&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Cursive",
-                    "slug": "cursive",
-                    "fontFamily": "'Dancing Script', 'Blackjack', cursive",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Dancing Script",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Small Caps",
-                    "slug": "small-caps",
-                    "fontFamily": "'Marcellus SC','playfair display SC', 'mate sc'",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Marcellus SC",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Mate SC",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Mate+SC&display=swap)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Playfair Display SC",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "Bebas Neue",
-                    "slug": "bebas-neue",
-                    "fontFamily": "bebas neue",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Bebas Neue",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "fontFamily": "the girl next door",
-                    "name": "Handwriting",
-                    "slug": "handwriting",
-                    "fontFace": [
-                        {
-                            "fontFamily": "The Girl Next Door",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "fontStyle": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap)"
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "icon",
-                    "slug": "icon",
-                    "fontFamily": "'Material Symbols Outlined', 'Material Symbols Rounded', 'Material Symbols Twotone'",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Material Symbols Outlined",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Material Symbols Rounded",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Material Symbols Twotone",
-                            "fontDisplay": "swap",
-                            "fontStretch": "normal",
-                            "src": [
-                                "url(https://fonts.googleapis.com/css2?family=Material+Symbols+Twotone:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200)"
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "fontSizes": [
-                {
-                    "name": "X Small",
-                    "size": "clamp(12px, 1.5vw, 14px)",
-                    "slug": "x-small",
-                    "fluid": {
-                        "min": "12px",
-                        "max": "14px"
-                    }
-                },
-                {
-                    "name": "Small",
-                    "size": "clamp(14px, 1.6vw, 16px)",
-                    "slug": "small",
-                    "fluid": {
-                        "min": "14px",
-                        "max": "16px"
-                    }
-                },
-                {
-                    "name": "Medium",
-                    "size": "clamp(16px, 1.8vw, 18px)",
-                    "slug": "medium",
-                    "fluid": {
-                        "min": "16px",
-                        "max": "18px"
-                    }
-                },
-                {
-                    "name": "Large",
-                    "size": "clamp(20px, 2.2vw, 22px)",
-                    "slug": "large",
-                    "fluid": {
-                        "min": "20px",
-                        "max": "22px"
-                    }
-                },
-                {
-                    "name": "X Large",
-                    "size": "clamp(24px, 3vw, 28px)",
-                    "slug": "x-large",
-                    "fluid": {
-                        "min": "24px",
-                        "max": "28px"
-                    }
-                }
-            ],
-            "fontStyle": true,
-            "fontWeight": true,
-            "letterSpacing": true,
-            "lineHeight": true,
-            "textDecoration": true,
-            "textTransform": true
-        }
+  "version": 3,
+  "$schema": "https://schemas.wp.org/wp/6.6/theme.json",
+  "settings": {
+    "appearanceTools": true,
+    "border": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
     },
-    "styles": {
-        "border": {
-            "color": "transparent",
-            "radius": "10px",
-            "style": "solid",
-            "width": ""
+    "color": {
+      "background": true,
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "defaultDuotone": true,
+      "defaultGradients": true,
+      "defaultPalette": true,
+      "link": true,
+      "duotone": [
+        {
+          "colors": [
+            "#fff",
+            "#fff"
+          ],
+          "slug": "white-on-white",
+          "name": "white on white"
         },
-        "color": {
-            "background": "#000000",
-            "gradient": "",
-            "text": "#f9f9f9"
+        {
+          "colors": [
+            "#000",
+            "#000"
+          ],
+          "slug": "black-on-black",
+          "name": "black on black"
         },
-        "filter": {
-            "duotone": "[ \"#000\", \"#FFF\" ]"
+        {
+          "colors": [
+            "#000",
+            "#fff"
+          ],
+          "slug": "black-and-white",
+          "name": "black and white"
         },
-        "spacing": {
-            "blockGap": "null",
-            "margin": {
-                "top": "",
-                "right": "",
-                "bottom": "",
-                "left": ""
-            },
-            "padding": {
-                "top": "",
-                "right": "",
-                "bottom": "",
-                "left": ""
-            },
-            "customSpacingSize": true
+        {
+          "colors": [
+            "#fff",
+            "#000"
+          ],
+          "slug": "white-and-black",
+          "name": "white and black"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(180deg,rgb(164,64,88) 0%,rgb(105,9,49) 100%",
+          "slug": "magenta",
+          "name": "magenta"
         },
-        "dimensions": {
-            "minHeight": true
+        {
+          "gradient": "linear-gradient(180deg,rgb(249,241,240) 8%,rgb(250,220,217) 100%",
+          "slug": "light-blush",
+          "name": "light blush"
         },
-        "position": {
-            "sticky": true
+        {
+          "gradient": "linear-gradient(180deg,rgb(230,209,210) 0%,rgb(171,138,138) 100%",
+          "slug": "neutral-beige",
+          "name": "Neutral Beige"
         },
-        "shadow": {},
-        "typography": {
-            "fontFamily": true,
-            "fontSize": true,
-            "fluid": true,
-            "customFontSize": true,
-            "dropCap": true,
-            "fontStyle": true,
-            "fontWeight": true,
-            "letterSpacing": "0.01em",
-            "lineHeight": "2em",
-            "textColumns": true,
-            "textDecoration": true,
-            "textTransform": true,
-            "writingMode": false
+        {
+          "gradient": "linear-gradient(180deg,rgb(143,162,166) 0%,rgb(68,90,103) 100%",
+          "slug": "blue-gray",
+          "name": "Blue Gray"
         },
-        "elements": {
-            "link": {
-                "border": {},
-                "color": {},
-                ":hover": {
-                    "color": {}
-                },
-                "spacing": {},
-                "typography": {}
-            },
-            "heading": {
-                "letterSpacing": "0.03em",
-                "lineHeight": "1.5em",
-                "CSS": "word-spacing: 0.1em; padding-top: 1rem; padding-bottom: 0.5em;"
-            },
-            "h1": {
-                "typography": {
-                    "fontFamily": "'Dancing Script', cursive",
-                    "fontSize": "giant"
-                }
-            },
-            "h2": {
-                "typography": {
-                    "fontFamily": "'Bebas Neue', Oswald, Antonio, Impact",
-                    "fontSize": "x-large",
-                    "fontWeight": "400"
-                }
-            },
-            "h3": {
-                "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif",
-                    "fontSize": "large",
-                    "CSS": "font-variant: small-caps;"
-                }
-            },
-            "h4": {
-                "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
-                }
-            },
-            "h5": {
-                "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
-                }
-            },
-            "h6": {
-                "typography": {
-                    "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
-                }
-            }
+        {
+          "gradient": "linear-gradient(180deg,rgb(179,240,240) 8%,rgb(27,133,162) 100%",
+          "slug": "tiffany-blue",
+          "name": "tiffany blue"
         },
-        "Blocks": {
-            "core/paragraph": {
-                "typography": {
-                    "fontFamily": "Outfit, sans-serif",
-                    "fontSize": "medium",
-                    "letterSpacing": "0.01em",
-                    "lineHeight": "2em",
-                    "CSS": "word-spacing: 0.1em;"
-                },
-                "spacing": {}
-            }
+        {
+          "gradient": "linear-gradient(180deg,rgb(212,241,244) 8%,rgb(5,68,94) 100%",
+          "slug": "ocean-blue",
+          "name": "Ocean Blue"
         },
-        "CSS": {}
+        {
+          "gradient": "linear-gradient(180deg,rgb(147,238,238) 8%,rgb(24,154,180) 100%",
+          "slug": "island-lagoon",
+          "name": "Island Lagoon"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-secondary) 100%",
+          "slug": "vertical-primary-secondary",
+          "name": "Vertical primary to secondary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent) 100%",
+          "slug": "vertical-primary-accent",
+          "name": "Vertical primary to accent"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-2) 100%",
+          "slug": "vertical-primary-accent-2",
+          "name": "Vertical primary to accent-2"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-3) 100%",
+          "slug": "vertical-primary-accent-3",
+          "name": "Vertical primary to accent-3"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-4) 100%",
+          "slug": "vertical-primary-accent-4",
+          "name": "Vertical primary to accent-4"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-primary) 8%,(--wp-preset-color-accent-5) 100%",
+          "slug": "vertical-primary-accent-5",
+          "name": "Vertical primary to accent-5"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent) 100%",
+          "slug": "vertical-secondary-accent",
+          "name": "Vertical secondary to accent"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-2) 100%",
+          "slug": "vertical-secondary-accent-2",
+          "name": "Vertical secondary to accent-2"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-3) 100%",
+          "slug": "vertical-secondary-accent-3",
+          "name": "Vertical secondary to accent-3"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-4) 100%",
+          "slug": "vertical-secondary-accent-4",
+          "name": "Vertical secondary to accent-4"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-secondary) 8%,(--wp-preset-color-accent-5) 100%",
+          "slug": "vertical-secondary-accent-5",
+          "name": "Vertical secondary to accent-5"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-primary) 100%",
+          "slug": "vertical-accent-primary",
+          "name": "Vertical accent to primary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-secondary) 100%",
+          "slug": "vertical-accent-secondary",
+          "name": "Vertical accent to secondary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-2) 100%",
+          "slug": "vertical-accent-accent-2",
+          "name": "Vertical accent to accent-2"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-3) 100%",
+          "slug": "vertical-accent-accent-3",
+          "name": "Vertical accent to accent-3"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-4) 100%",
+          "slug": "vertical-accent-accent-4",
+          "name": "Vertical accent to accent-4"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent) 8%,(--wp-preset-color-accent-5) 100%",
+          "slug": "vertical-accent-accent-5",
+          "name": "Vertical accent to accent-5"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-primary) 100%",
+          "slug": "vertical-accent-2-primary",
+          "name": "Vertical accent-2 to primary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-secondary) 100%",
+          "slug": "vertical-accent-2-secondary",
+          "name": "Vertical accent-2 to secondary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent) 100%",
+          "slug": "vertical-accent-2-accent",
+          "name": "Vertical accent-2 to accent"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent-3) 100%",
+          "slug": "vertical-accent-2-accent-3",
+          "name": "Vertical accent-2 to accent-3"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent-4) 100%",
+          "slug": "vertical-accent-2-accent-4",
+          "name": "Vertical accent-2 to accent-4"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-2) 8%,(--wp-preset-color-accent-5) 100%",
+          "slug": "vertical-accent-2-accent-5",
+          "name": "Vertical accent-2 to accent-5"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-primary) 100%",
+          "slug": "vertical-accent-3-primary",
+          "name": "Vertical accent-3 to primary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-secondary) 100%",
+          "slug": "vertical-accent-3-secondary",
+          "name": "Vertical accent-3 to secondary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent) 100%",
+          "slug": "vertical-accent-3-accent",
+          "name": "Vertical accent-3 to accent"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent-2) 100%",
+          "slug": "vertical-accent-3-accent-2",
+          "name": "Vertical accent-3 to accent-2"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent-4) 100%",
+          "slug": "vertical-accent-3-accent-4",
+          "name": "Vertical accent-3 to accent-4"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-3) 8%,(--wp-preset-color-accent-5) 100%",
+          "slug": "vertical-accent-3-accent-5",
+          "name": "Vertical accent-3 to accent-5"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-primary) 100%",
+          "slug": "vertical-accent-4-primary",
+          "name": "Vertical accent-4 to primary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-secondary) 100%",
+          "slug": "vertical-accent-4-secondary",
+          "name": "Vertical accent-4 to secondary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent) 100%",
+          "slug": "vertical-accent-4-accent",
+          "name": "Vertical accent-4 to accent"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent-2) 100%",
+          "slug": "vertical-accent-4-accent-2",
+          "name": "Vertical accent-4 to accent-2"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent-3) 100%",
+          "slug": "vertical-accent-4-accent-3",
+          "name": "Vertical accent-4 to accent-3"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-4) 8%,(--wp-preset-color-accent-5) 100%",
+          "slug": "vertical-accent-4-accent-5",
+          "name": "Vertical accent-4 to accent-5"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-primary) 100%",
+          "slug": "vertical-accent-5-primary",
+          "name": "Vertical accent-5 to primary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-secondary) 100%",
+          "slug": "vertical-accent-5-secondary",
+          "name": "Vertical accent-5 to secondary"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent) 100%",
+          "slug": "vertical-accent-5-accent",
+          "name": "Vertical accent-5 to accent"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent-2) 100%",
+          "slug": "vertical-accent-5-accent-2",
+          "name": "Vertical accent-5 to accent-2"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent-3) 100%",
+          "slug": "vertical-accent-5-accent-3",
+          "name": "Vertical accent-5 to accent-3"
+        },
+        {
+          "gradient": "linear-gradient(180deg,var(--wp-preset-color-accent-5) 8%,(--wp-preset-color-accent-4) 100%",
+          "slug": "vertical-accent-5-accent-4",
+          "name": "Vertical accent-5 to accent-4"
+        }
+      ],
+      "palette": [
+        {
+          "color": "#000000",
+          "slug": "background",
+          "name": "Background"
+        },
+        {
+          "color": "#F9F1F0",
+          "slug": "base-2",
+          "name": "Base 2"
+        },
+        {
+          "color": "#f9f9f9",
+          "slug": "foreground",
+          "name": "Foreground"
+        },
+        {
+          "color": "#690931",
+          "slug": "contrast-2",
+          "name": "Contrast 2"
+        },
+        {
+          "color": "#a44058",
+          "slug": "primary",
+          "name": "Primary"
+        },
+        {
+          "color": "#fadcd9",
+          "slug": "secondary",
+          "name": "Secondary"
+        },
+        {
+          "color": "#b76e7c",
+          "slug": "accent",
+          "name": "Accent"
+        },
+        {
+          "color": "#ca3b5d",
+          "slug": "accent-2",
+          "name": "accent 2"
+        },
+        {
+          "color": "#ebe7eb",
+          "slug": "accent-3",
+          "name": "Accent 3"
+        },
+        {
+          "color": "#f48f98",
+          "slug": "accent-4",
+          "name": "accent 4"
+        },
+        {
+          "color": "#E6D1D2",
+          "slug": "accent-5",
+          "name": "Accent 5"
+        },
+        {
+          "color": "#718096",
+          "slug": "blue-gray",
+          "name": "Blue Gray"
+        },
+        {
+          "color": "#8fa2a6",
+          "slug": "blue-olive",
+          "name": "Blue Olive"
+        }
+      ],
+      "text": true
     },
-    "customTemplates": [
-        {
-            "name": "page-w-title",
-            "title": "Page with Title",
-            "postTypes": [
-                "page"
-            ]
-        },
-        {
-            "name": "page-wo-title",
-            "title": "Page without Title",
-            "postTypes": [
-                "page"
-            ]
-        },
-        {
-            "name": "blog",
-            "title": "Blog",
-            "postTypes": [
-                "page",
-                "post"
-            ]
-        },
-        {
-            "name": "homepage",
-            "title": "Homepage",
-            "postTypes": [
-                "page"
-            ]
-        },
-        {
-            "name": "page-right-sidebar",
-            "title": "Page with Right Sidebar",
-            "postTypes": [
-                "page",
-                "post"
-            ]
-        },
-        {
-            "name": "page-left-sidebar",
-            "title": "Page with Left Sidebar",
-            "postTypes": [
-                "page",
-                "post"
-            ]
-        },
-        {
-            "name": "canvas",
-            "title": "Canvas",
-            "postTypes": [
-                "page",
-                "post"
-            ]
-        },
-        {
-            "name": "post",
-            "title": "Post",
-            "postTypes": [
-                "post"
-            ]
+    "custom": {
+      "spacing": {
+        "small": "max(1.25rem, 5vw",
+        "medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap))",
+        "large": "clamp(4rem, 10vw, 8rem",
+        "outer": "var(--wp--custom--spacing--small, 1.25rem"
+      },
+      "typography": {
+        "fontSize": {
+          "gigantic": "clamp(3rem, 6vw, 4rem",
+          "colossal": "clamp(4rem, 8vw, 6.25rem"
         }
-    ],
-    "templateParts": [
-        {
-            "name": "header",
-            "title": "Header",
-            "area": "header"
-        },
-        {
-            "name": "footer",
-            "title": "Footer",
-            "area": "footer"
-        },
-        {
-            "name": "sidebar",
-            "title": "Sidebar",
-            "area": "sidebar"
-        },
-        {
-            "name": "general",
-            "title": "General",
-            "area": "general"
+      }
+    },
+    "layout": {
+      "contentSize": "var(--global-calc-content-width",
+      "wideSize": "var(--global-calc-wide-content-width"
+    },
+    "spacing": {
+      "blockGap": null,
+      "margin": true,
+      "padding": true,
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "vh",
+        "vw",
+        "%"
+      ]
+    },
+    "useRootPaddingAwareAlignments": true,
+    "blocks": {
+      "core/button": {
+        "border": {
+          "radius": true
         }
-    ]
+      },
+      "core/pullquote": {
+        "border": {
+          "color": true,
+          "radius": true,
+          "style": true,
+          "width": true
+        }
+      }
+    },
+    "typography": {
+      "customFontSize": true,
+      "dropCap": true,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "name": "Sans Serif",
+          "slug": "sans-serif",
+          "fontFamily": "outfit, 'be vietnam pro', 'open sans','helvetica neue', verdana, 'helvetica', sans-serif",
+          "fontFace": [
+            {
+              "fontFamily": "Outfit",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+              ]
+            },
+            {
+              "fontFamily": "Open Sans",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+              ]
+            },
+            {
+              "fontFamily": "Be Vietnam Pro",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Serif",
+          "slug": "serif",
+          "fontFamily": "'Newsreader', 'Bookman', 'Optima', 'Bitter', 'Gentium Book Plus', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif",
+          "fontFace": [
+            {
+              "fontFamily": "Newsreader",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+              ]
+            },
+            {
+              "fontFamily": "Playfair Display",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Playflair+Display&display=swap"
+              ]
+            },
+            {
+              "fontFamily": "Gentium Book Plus",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Monospace",
+          "slug": "monospace",
+          "fontFamily": "'b612 mono', courier, monospace",
+          "fontFace": [
+            {
+              "fontFamily": "B612 Mono",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=B612+Mono&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cursive",
+          "slug": "cursive",
+          "fontFamily": "'Dancing Script', 'Blackjack', cursive",
+          "fontFace": [
+            {
+              "fontFamily": "Dancing Script",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Small Caps",
+          "slug": "small-caps",
+          "fontFamily": "'playfair display SC', 'mate sc','Marcellus SC'",
+          "fontFace": [
+            {
+              "fontFamily": "Marcellus SC",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap"
+              ]
+            },
+            {
+              "fontFamily": "Mate SC",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"
+              ]
+            },
+            {
+              "fontFamily": "Playfair Display SC",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontVariant": "small-caps",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bebas Neue",
+          "slug": "headline",
+          "fontFamily": "bebas neue",
+          "fontFace": [
+            {
+              "fontFamily": "Bebas Neue",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "the girl next door",
+          "name": "Handwriting",
+          "slug": "handwriting",
+          "fontFace": [
+            {
+              "fontFamily": "The Girl Next Door",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "fontStyle": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=The+Girl+Next+Door&display=swap"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "icon",
+          "slug": "icon",
+          "fontFamily": "'Material Symbols Outlined', 'Material Symbols Rounded', 'Material Symbols Twotone'",
+          "fontFace": [
+            {
+              "fontFamily": "Material Symbols Outlined",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+              ]
+            },
+            {
+              "fontFamily": "Material Symbols Rounded",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+              ]
+            },
+            {
+              "fontFamily": "Material Symbols Twotone",
+              "fontDisplay": "swap",
+              "fontStretch": "normal",
+              "src": [
+                "https://fonts.googleapis.com/css2?family=Material+Symbols+Twotone:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+              ]
+            }
+          ]
+        }
+      ],
+      "fontSizes": [
+        {
+          "name": "X Small",
+          "size": "clamp(12px, 1.5vw, 14px",
+          "slug": "x-small",
+          "fluid": {
+            "min": "12px",
+            "max": "14px"
+          }
+        },
+        {
+          "name": "Small",
+          "size": "clamp(14px, 1.6vw, 16px",
+          "slug": "small",
+          "fluid": {
+            "min": "14px",
+            "max": "16px"
+          }
+        },
+        {
+          "name": "Medium",
+          "size": "clamp(16px, 1.8vw, 18px",
+          "slug": "medium",
+          "fluid": {
+            "min": "16px",
+            "max": "18px"
+          }
+        },
+        {
+          "name": "Large",
+          "size": "clamp(20px, 2.2vw, 22px",
+          "slug": "large",
+          "fluid": {
+            "min": "20px",
+            "max": "22px"
+          }
+        },
+        {
+          "name": "X Large",
+          "size": "clamp(24px, 3vw, 28px",
+          "slug": "x-large",
+          "fluid": {
+            "min": "24px",
+            "max": "28px"
+          }
+        }
+      ],
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": true,
+      "lineHeight": true,
+      "textDecoration": true,
+      "textTransform": true
+    }
+  },
+  "styles": {
+    "border": {
+      "color": "transparent",
+      "radius": "10px",
+      "style": "solid",
+      "width": ""
+    },
+    "color": {
+      "background": "#000000",
+      "gradient": "",
+      "text": "#f9f9f9"
+    },
+    "filter": {
+      "duotone": "[ \"#000\", \"#FFF\" ]"
+    },
+    "spacing": {
+      "blockGap": "null",
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "customSpacingSize": true
+    },
+    "dimensions": {
+      "minHeight": true
+    },
+    "position": {
+      "sticky": true
+    },
+    "shadow": {},
+    "typography": {
+      "fontFamily": true,
+      "fontSize": true,
+      "fluid": true,
+      "customFontSize": true,
+      "dropCap": true,
+      "fontStyle": true,
+      "fontWeight": true,
+      "letterSpacing": "0.01em",
+      "lineHeight": "2em",
+      "textColumns": true,
+      "textDecoration": true,
+      "textTransform": true,
+      "writingMode": false
+    },
+    "elements": {
+      "link": {
+        "border": {},
+        "color": {},
+        ":hover": {
+          "color": {}
+        },
+        "spacing": {},
+        "typography": {}
+      },
+      "heading": {
+        "letterSpacing": "0.03em",
+        "lineHeight": "1.5em",
+        "CSS": "word-spacing: 0.1em; padding-top: 1rem; padding-bottom: 0.5em;"
+      },
+      "h1": {
+        "typography": {
+          "fontFamily": "'Dancing Script', cursive",
+          "fontSize": "giant"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontFamily": "'Bebas Neue', Oswald, Antonio, Impact",
+          "fontSize": "x-large",
+          "fontWeight": "400"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif",
+          "fontSize": "large",
+          "CSS": "font-variant: small-caps;"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontFamily": "'Newsreader', 'Bookman Oldstyle', 'Playfair Display', 'Georgia', 'Times New Roman', 'Times', serif"
+        }
+      }
+    },
+    "Blocks": {
+      "core/paragraph": {
+        "typography": {
+          "fontFamily": "Outfit, sans-serif",
+          "fontSize": "medium",
+          "letterSpacing": "0.01em",
+          "lineHeight": "2em",
+          "CSS": "word-spacing: 0.1em;"
+        },
+        "spacing": {}
+      }
+    },
+    "CSS": {}
+  },
+  "customTemplates": [
+    {
+      "name": "page-w-title",
+      "title": "Page with Title",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-wo-title",
+      "title": "Page without Title",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "blog",
+      "title": "Blog",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "name": "homepage",
+      "title": "Homepage",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-right-sidebar",
+      "title": "Page with Right Sidebar",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "name": "page-left-sidebar",
+      "title": "Page with Left Sidebar",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "name": "canvas",
+      "title": "Canvas",
+      "postTypes": [
+        "page",
+        "post"
+      ]
+    },
+    {
+      "name": "post",
+      "title": "Post",
+      "postTypes": [
+        "post"
+      ]
+    }
+  ],
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    },
+    {
+      "name": "sidebar",
+      "title": "Sidebar",
+      "area": "sidebar"
+    },
+    {
+      "name": "general",
+      "title": "General",
+      "area": "general"
+    }
+  ]
 }
